@@ -137,24 +137,12 @@ https://www.facebook.com/groups/thejavatemple
 Task#1 
 student.txt
 85,RAM,MS,200.00
-
-student.xml
 <student>
  <sid>85</sid>
  <sname>RAM</sname>
  <course>MS</course>
  <fee>200.00</fee>
 </student>
-
-=====Ex#2 Processor using Lambda Expression ===========
-package in.nareshit.raghu.router;
-
-import java.util.StringTokenizer;
-
-import org.apache.camel.Message;
-import org.apache.camel.builder.RouteBuilder;
-import org.springframework.stereotype.Component;
-
 @Component
 public class MyRouterNew extends RouteBuilder {
 
