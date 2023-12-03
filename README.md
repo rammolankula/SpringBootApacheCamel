@@ -132,17 +132,6 @@ public class MyRouterNew extends RouteBuilder {
 		.to("file:F:/desti?fileName=emp.json");
 	}
 }
------TASK--------------
-https://www.facebook.com/groups/thejavatemple
-Task#1 
-student.txt
-85,RAM,MS,200.00
-<student>
- <sid>85</sid>
- <sname>RAM</sname>
- <course>MS</course>
- <fee>200.00</fee>
-</student>
 @Component
 public class MyRouterNew extends RouteBuilder {
 
